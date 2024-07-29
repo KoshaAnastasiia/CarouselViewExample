@@ -62,7 +62,7 @@ struct MainView: View {
                 Spacer()
                 HStack(spacing: 8) {
                     ForEach(0..<self.pageInfo.count, id: \.self) { index in
-                        Button(action: circleButtonAction,
+                        Button(action: {circleButtonAction(index: index)},
                                label: {
                             Circle()
                                 .frame(width: 9, height: 9)
@@ -75,7 +75,7 @@ struct MainView: View {
         }
     }
     
-    private func circleButtonAction() {
+    private func circleButtonAction(index: Int) {
         withAnimation {
             self.index = index
         }

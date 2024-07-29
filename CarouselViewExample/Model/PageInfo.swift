@@ -20,10 +20,10 @@ extension PageInfo {
                   title: "Title 1",
                   description: "First view description"),
          PageInfo(index: 1,
-                  title: "Title 1",
+                  title: "Title 2",
                   description: "Second view description."),
          PageInfo(index: 2,
-                  title: "Title 2",
+                  title: "Title 3",
                   description: "Third view description.")]
     }
 }

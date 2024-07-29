@@ -37,7 +37,7 @@ struct CarouselView: View {
             DragGesture()
             //speed
                 .onChanged { value in
-                    draggingItem = value.translation.width / 150
+                    draggingItem = value.translation.width / 250
                     print("\(draggingItem)")
                 }
                 .onEnded { value in
