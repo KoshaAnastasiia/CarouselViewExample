@@ -42,8 +42,8 @@ struct CarouselView: View {
                 }
                 .onEnded { value in
                     withAnimation {
-                        //middle position
                         draggingItem = round(draggingItem).remainder(dividingBy: Double(pageInfo.count))
+                    } completion: {
                         var newSelected = selectedItem - Int(draggingItem)
                         if newSelected < 0 {
                             newSelected += pageInfo.count
@@ -55,6 +55,7 @@ struct CarouselView: View {
                         draggingItem = 0
                         print("\(draggingItem)")
                         print("new selected \(selectedItem)")
+
                     }
                 }
         )
