@@ -3,7 +3,7 @@
 
 1. User can switch the carousel by scrolling pictures left and right
 
-https://github.com/user-attachments/assets/3494363b-e192-4a83-b7af-655d946ce9cd
+https://github.com/user-attachments/assets/6b173112-0e86-446d-b318-825cdcb7d607
 
 2. User can switch carousel by tapping on a page progress buttons
 
